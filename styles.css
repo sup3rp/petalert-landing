@@ -44,7 +44,7 @@ button {
     height: 60px;
     background-size: cover;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .logo{
         margin-left: auto;
         margin-right: auto;
@@ -55,7 +55,7 @@ button {
     margin-left: auto;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .menu-links-wrapper {
         visibility: hidden;
     }
@@ -87,7 +87,7 @@ button {
     background-position: center center;
     overflow-x: hidden;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .hero {
         background-position: top;
         
@@ -98,7 +98,7 @@ button {
 .hero-wrapper {
     margin: 30px 100px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .hero-wrapper {
         margin: 30px 20px;
         background-color: rgba(255, 255, 255, 0.2);
@@ -126,7 +126,7 @@ button {
     
     background-color: rgba(255, 255, 255, 0.2);
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
     .hero-cta {
         width: 50%;
         margin: 30px auto auto auto;
