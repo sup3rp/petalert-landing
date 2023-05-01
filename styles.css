@@ -148,7 +148,18 @@ button {
     font-weight: 400;
 }
 
-.hero-cta{
+.hero-cta {
+    margin: 100px;
+    float: left;
+}
+@media only screen and (max-width: 1000px) {
+    .hero-cta {
+        margin: unset;
+        float: unset;
+        margin-top: 100px;
+    }
+}
+/* .hero-cta{
     width: 20%;
     padding: 20px;
     margin: 30px 100px;
@@ -167,16 +178,23 @@ button {
         font-weight: 900;
         margin-top: 150px;
     }
-}
+} */
 
 .cta-button{
     margin-left:auto;
     margin-right: auto;
     display: flex;
-   
+
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    font-size: 50px;
 }
 @media only screen and (max-width: 1000px) {
-    .hero-cta {
+    .cta-button {
         font-size: 100px;
         font-weight: 900px;
     }
