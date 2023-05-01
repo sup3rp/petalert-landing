@@ -123,11 +123,15 @@ button {
     border-style: solid;
     border-color: white;
     border-radius: 5px;
+    
+    background-color: rgba(255, 255, 255, 0.2);
 }
 @media only screen and (max-width: 900px) {
     .hero-cta {
-        width: 30%;
+        width: 50%;
         margin: 30px auto auto auto;
+        font-size: xx-large;
+        font-weight: 900;
     }
 }
 
