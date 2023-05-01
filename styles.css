@@ -44,7 +44,7 @@ button {
     height: 60px;
     background-size: cover;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .logo {
         width: 200px;
         height: 200px;
@@ -54,7 +54,7 @@ button {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .logo{
         margin-left: auto;
         margin-right: auto;
@@ -65,7 +65,7 @@ button {
     margin-left: auto;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .menu-links-wrapper {
         display: none;
     }
@@ -97,7 +97,7 @@ button {
     background-position: center center;
     overflow-x: hidden;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .hero {
         background-position: top;
         
@@ -108,7 +108,7 @@ button {
 .hero-wrapper {
     margin: 30px 100px;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .hero-wrapper {
         margin: 30px 20px;
         background-color: rgba(255, 255, 255, 0.2);
@@ -117,13 +117,14 @@ button {
 
 .hero-title {
     font-size: xx-large;
-    font-weight: 900;
+    font-weight: 900; 
 }
 
-@media only screen and (max-width: 1200px) {
-    .hero-wrapper {
+@media only screen and (max-width: 1000px) {
+    .hero-title {
+        text-align: center;
         font-weight: 900;
-        font-size: xx-large;
+        font-size: 80px;
     }
 }
 
@@ -143,7 +144,7 @@ button {
     
     background-color: rgba(255, 255, 255, 0.2);
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .hero-cta {
         width: 60%;
         margin: 30px auto auto auto;
@@ -159,7 +160,7 @@ button {
     display: flex;
    
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .hero-cta {
         font-size: 100px;
         font-weight: 900px;
