@@ -1,0 +1,143 @@
+body{
+    /*clear styles*/
+    margin:0;
+    font-family:'Courier New', Courier, monospace;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.icon { 
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.menu{
+    margin: 10px;
+}
+
+.menu > nav {
+    display: flex;
+}
+
+.logo{
+    background-image: url('images/logo.png');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+@media only screen and (max-width: 900px) {
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.menu-links-wrapper {
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .menu-links-wrapper {
+        visibility: hidden;
+    }
+}
+
+.menu-links {
+    min-width: 100%;
+    background-color: #fafafa;
+    display: flex;
+   
+    
+    gap:20px;
+}
+
+.section {
+    width: 100%;
+    height: 500px;
+}
+
+.hero {
+    width: 98vw;
+    height: 100vh;
+    background: url("images/labrador.jpg");
+    background-size: cover;
+    color: white;
+    padding: 20px 10px;
+    background-position: top;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 900px) {
+    .hero {
+        background-position: top;
+        
+
+    }
+}
+
+.hero-wrapper {
+    margin: 30px 100px;
+}
+@media only screen and (max-width: 900px) {
+    .hero-wrapper {
+        margin: 30px 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+.hero-title {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.hero-span-gear {
+    font-size: x-large; 
+    font-weight: 400;
+}
+
+.hero-cta{
+    width: 20%;
+    padding: 20px;
+    margin: 30px 100px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 900px) {
+    .hero-cta {
+        width: 30%;
+        margin: 30px auto auto auto;
+    }
+}
+
+.cta-button{
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    font-size:x-large;
+}
+
+.how-does-it-work-section{
+    background-color:rgb(50, 50, 50);
+}
