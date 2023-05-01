@@ -128,6 +128,14 @@ button {
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .hero-description {
+        font-weight: 500;
+        font-size: 40px;
+    }
+}
+
+
 .hero-span-gear {
     font-size: x-large; 
     font-weight: 400;
