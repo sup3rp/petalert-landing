@@ -45,6 +45,16 @@ button {
     background-size: cover;
 }
 @media only screen and (max-width: 1200px) {
+    .logo {
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+@media only screen and (max-width: 1200px) {
     .logo{
         margin-left: auto;
         margin-right: auto;
@@ -57,7 +67,7 @@ button {
 
 @media only screen and (max-width: 1200px) {
     .menu-links-wrapper {
-        visibility: hidden;
+        display: none;
     }
 }
 
@@ -110,6 +120,13 @@ button {
     font-weight: 900;
 }
 
+@media only screen and (max-width: 1200px) {
+    .hero-wrapper {
+        font-weight: 900;
+        font-size: xx-large;
+    }
+}
+
 .hero-span-gear {
     font-size: x-large; 
     font-weight: 400;
@@ -128,10 +145,11 @@ button {
 }
 @media only screen and (max-width: 1200px) {
     .hero-cta {
-        width: 50%;
+        width: 60%;
         margin: 30px auto auto auto;
         font-size: xx-large;
         font-weight: 900;
+        margin-top: 150px;
     }
 }
 
@@ -139,7 +157,13 @@ button {
     margin-left:auto;
     margin-right: auto;
     display: flex;
-    font-size:x-large;
+   
+}
+@media only screen and (max-width: 1200px) {
+    .hero-cta {
+        font-size: 100px;
+        font-weight: 900px;
+    }
 }
 
 .how-does-it-work-section{
